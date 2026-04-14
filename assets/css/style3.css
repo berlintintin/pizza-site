@@ -70,12 +70,13 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
+  padding: 10px 0;
 }
 
 .topbar-inner {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  gap: 22px;
+  gap: 16px;
   align-items: center;
   padding: 14px 0;
 }
@@ -111,6 +112,8 @@ a {
   flex-direction: column;
   gap: 0;
   min-width: 0;
+  justify-content: center;
+  line-height: 1.1;
 }
 
 .brand-wordmark {
@@ -170,11 +173,11 @@ a {
   justify-content: center;
   gap: 8px;
   min-height: 42px;
-  padding: 8px 14px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
   border-radius: 999px;
   border: 1px solid var(--line);
   background: rgba(255,255,255,0.7);
-  font-size: 0.94rem;
   line-height: 1.1;
   white-space: nowrap;
   color: var(--ink);
@@ -349,8 +352,8 @@ a {
 }
 
 .hero h2 {
-  font-size: clamp(2rem, 5vw, 4rem);
-  line-height: 0.98;
+  font-size: clamp(2rem, 4vw, 2.6rem);
+  line-height: 1.2;
   margin: 0 0 16px;
   letter-spacing: -0.03em;
 }
@@ -1077,4 +1080,32 @@ section {
     white-space: normal;
     justify-content: flex-start;
   }
+}
+
+/* === LOGO TIGHTENING === */
+
+/* Pull CABIN letters closer together */
+.brand-wordmark {
+  letter-spacing: 0.08em; /* try 0.05–0.1 range */
+}
+
+/* Make letters feel more like a unit */
+.brand-wordmark span {
+  margin-right: -2px; /* slightly overlaps spacing */
+}
+
+/* Tighten spacing below CABIN */
+.brand-subline {
+  margin-top: 2px;
+}
+
+/* Make subline more compact */
+.brand-pizza-house {
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+}
+
+/* Katakana closer to pizza house */
+.brand-subline span {
+  margin-left: 6px;
 }
