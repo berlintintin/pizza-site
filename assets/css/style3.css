@@ -1109,3 +1109,89 @@ section {
 .brand-subline span {
   margin-left: 6px;
 }
+
+/* === MOBILE HEADER FIX === */
+@media (max-width: 640px) {
+  .topbar {
+    position: static;
+    top: auto;
+    padding: 6px 0;
+  }
+
+  .topbar-inner {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 8px 0;
+  }
+
+  .brand {
+    gap: 10px;
+    align-items: center;
+  }
+
+  .brand-flag {
+    width: 28px;
+    height: 40px;
+  }
+
+  .brand-wordmark {
+    font-size: 1.45rem;
+    letter-spacing: 0.03em;
+    gap: 0.02em;
+  }
+
+  .brand-subline {
+    gap: 8px;
+    margin-top: 0;
+    margin-left: 2px;
+  }
+
+  .brand-pizza-house {
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+  }
+
+  .brand-katakana {
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+  }
+
+  .top-info-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .info-pill {
+    min-height: 0;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    justify-content: flex-start;
+  }
+
+  .top-actions {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .btn,
+  .btn-outline {
+    padding: 10px 14px;
+    font-size: 0.95rem;
+  }
+
+  .section-nav {
+    position: static;
+    top: auto;
+  }
+
+  .hero {
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 640px) {
+  .info-subtle,
+  .top-info-grid .info-link:last-child {
+    display: none;
+  }
+}
