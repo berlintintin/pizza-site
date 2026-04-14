@@ -1,34 +1,635 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <title>ピザショップ</title>
-  <style>
-    body { font-family: Arial; margin: 0; text-align: center; }
-    header { background: #c0392b; color: white; padding: 40px; }
-    section { padding: 20px; }
-    .menu-item { margin: 10px 0; }
-    a { color: #c0392b; text-decoration: none; font-weight: bold; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CABIN Pizza House | イタリア料理とワインバー</title>
+  <meta
+    name="description"
+    content="御宿のCABIN Pizza House。手づくりピザ、パスタ、サラダ、デザート、ワインが楽しめる、あたたかく居心地のよいイタリア料理店です。"
+  />
+  <link rel="stylesheet" href="assets/css/style3.css" />
 </head>
 <body>
 
-<header>
-  <h1>🍕 ピザショップ</h1>
-  <a href="index.html">English</a>
-</header>
+  <header class="topbar">
+    <div class="container topbar-inner">
 
-<section>
-  <h2>メニュー</h2>
-  <div class="menu-item">マルゲリータ - $12</div>
-  <div class="menu-item">ペパロニ - $14</div>
-  <div class="menu-item">ハワイアン - $13</div>
-</section>
+      <a class="brand" href="#top" aria-label="CABIN Pizza House ホーム">
+        <div class="brand-flag" aria-hidden="true">
+          <span class="flag-green"></span>
+          <span class="flag-white"></span>
+          <span class="flag-red"></span>
+        </div>
 
-<section>
-  <h2>場所</h2>
-  <p>123メインストリート</p>
-</section>
+        <div class="brand-lockup">
+          <div class="brand-wordmark" aria-label="CABIN">
+            <span class="c1">C</span>
+            <span class="c2">A</span>
+            <span class="c3">B</span>
+            <span class="c4">I</span>
+            <span class="c5">N</span>
+          </div>
 
+          <div class="brand-subline">
+            <span class="brand-pizza-house">pizza house</span>
+            <span class="brand-katakana">キャビン</span>
+          </div>
+        </div>
+      </a>
+
+      <div class="top-info top-info-grid">
+        <a class="info-pill info-link" href="#visit">📍 2228-1 Kubo, Onjuku</a>
+        <div class="info-pill">🕒 10:30 AM – 9:30 PM</div>
+        <div class="info-pill">📞 080-4204-1187</div>
+
+        <div class="info-pill info-subtle">Chiba 299-5102</div>
+        <div class="info-pill info-closed">❌ 火曜定休</div>
+        <a class="info-pill info-link" href="#visit">地図を見る ↓</a>
+      </div>
+
+      <div class="top-actions">
+        <a class="btn-outline" href="english.html">English</a>
+        <a class="btn btn-sea" href="#visit">店舗情報</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">🍕 手づくりピザ・パスタ・ワイン・デザート</div>
+          <h2>御宿で楽しむ、<br>あたたかなイタリアン。</h2>
+          <p>
+            CABIN Pizza House は、手づくりのピザやパスタ、サラダ、デザート、
+            お飲み物をゆったり楽しめる、御宿のあたたかなイタリア料理店です。
+            気取らず過ごせる雰囲気で、ランチにもディナーにもぴったりです。
+          </p>
+          <p>
+            こだわりの食材、丁寧に仕上げた味わい、そして居心地のよい空間。
+            犬好きの方にも親しんでいただける、やさしい魅力のあるお店です。
+          </p>
+
+          <div class="hero-highlights">
+            <span class="tag">手づくりピザ生地</span>
+            <span class="tag">ワインとお飲み物</span>
+            <span class="tag">テイクアウト可</span>
+            <span class="tag">わんちゃん好きにも人気</span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn" href="#menu">メニューを見る</a>
+            <a class="btn-outline" href="#visit">アクセス・営業時間</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img src="assets/images/hero-placeholder.jpg" alt="CABIN Pizza House の店内と料理" />
+          <div class="hero-card">
+            <strong>心のこもった、やさしいおいしさ</strong>
+            <p>
+              手づくりピザとパスタ、そしてほっとできる空気感。
+              ふらっと立ち寄りたくなる、御宿の人気店です。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="CABIN Pizza Houseについて">
+      <div class="container about-grid">
+        <div class="card">
+          <div class="card-body about-copy">
+            <div class="section-head" style="margin-bottom: 12px;">
+              <div>
+                <h3>気軽に立ち寄れる、御宿のイタリアン</h3>
+                <p>
+                  手づくりピザやパスタ、ワインをゆっくり楽しめる、
+                  あたたかみのある一軒です。
+                </p>
+              </div>
+            </div>
+
+            <p>
+              CABIN Pizza House は、地元の空気になじむ気さくな雰囲気と、
+              心を込めてつくられた料理の両方を楽しめるお店です。
+              親しみやすく、肩ひじ張らずに過ごせるのも魅力です。
+            </p>
+
+            <p>
+              定番のマルゲリータやペパロニはもちろん、シーフードピザ、
+              カレーピザ、パスタ、サラダ、デザート、お飲み物まで幅広くご用意。
+              料理のおいしさとお店の雰囲気、どちらも印象に残るお店です。
+            </p>
+
+            <div class="about-stats">
+              <div class="stat">
+                <strong>ピザ・パスタ・サラダ</strong>
+                <span>手づくりのイタリアンを気軽に</span>
+              </div>
+              <div class="stat">
+                <strong>ワイン・ソフトドリンク</strong>
+                <span>ランチにも夜のひとときにもおすすめ</span>
+              </div>
+              <div class="stat">
+                <strong>テイクアウト対応</strong>
+                <span>海帰りやお出かけの途中にも便利です</span>
+              </div>
+              <div class="stat">
+                <strong>やさしく温かな雰囲気</strong>
+                <span>わんちゃん好きの方にも親しまれています</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/images/pizza-feature-placeholder.jpg" alt="おすすめピザ" />
+            <div class="gallery-label">おすすめピザ</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/pasta-feature-placeholder.jpg" alt="パスタ" />
+            <div class="gallery-label">パスタ</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/dessert-feature-placeholder.jpg" alt="デザート" />
+            <div class="gallery-label">デザート</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" aria-label="フォトギャラリー">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h3>ギャラリー</h3>
+            <p>料理や雰囲気、CABINらしさが伝わる写真をご覧いただけます。</p>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <a class="gallery-item lightbox-trigger" href="assets/images/pizza-feature-placeholder.jpg" data-caption="おすすめピザ">
+            <img src="assets/images/pizza-feature-placeholder.jpg" alt="おすすめピザ" />
+            <div class="gallery-label">おすすめピザ</div>
+          </a>
+
+          <a class="gallery-item lightbox-trigger" href="assets/images/pasta-feature-placeholder.jpg" data-caption="パスタ">
+            <img src="assets/images/pasta-feature-placeholder.jpg" alt="パスタ" />
+            <div class="gallery-label">パスタ</div>
+          </a>
+
+          <a class="gallery-item lightbox-trigger" href="assets/images/dessert-feature-placeholder.jpg" data-caption="デザート">
+            <img src="assets/images/dessert-feature-placeholder.jpg" alt="デザート" />
+            <div class="gallery-label">デザート</div>
+          </a>
+
+          <a class="gallery-item lightbox-trigger" href="assets/images/handmade.jpg" data-caption="ひとつひとつ丁寧に手づくりしています">
+            <img src="assets/images/alisa-san.jpg" alt="手づくりへのこだわり" />
+            <div class="gallery-label">手づくりのこだわり</div>
+          </a>
+
+          <a class="gallery-item lightbox-trigger" href="assets/images/atmosphere.jpg" data-caption="店内の雰囲気">
+            <img src="assets/images/atmosphere-small.jpg" alt="店内の雰囲気" />
+            <div class="gallery-label">くつろげる雰囲気</div>
+          </a>
+
+          <a class="gallery-item lightbox-trigger" href="assets/images/aki-big.jpg" data-caption="アキちゃん">
+            <img src="assets/images/aki-placeholder.jpg" alt="アキちゃん" />
+            <div class="gallery-label">アキちゃん</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h3>メニュー</h3>
+            <p>
+              はじめてのお客様にも見やすいよう、英語版と同じ構成で
+              わかりやすくまとめています。
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-pizza.jpg" alt="ピザ" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>ピザ</h4>
+                <span class="tag">人気メニュー</span>
+              </div>
+              <div class="menu-note">定番から個性ある一枚まで、手づくりピザをご用意しています。</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">マルゲリータ</div>
+                    <div class="jp-sub">Margherita</div>
+                    <div class="menu-item-desc">トマトソース、モッツァレラ、バジル</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">アンチョビマルゲリータ</div>
+                    <div class="menu-item-desc">トマトソース、モッツァレラ、バジル、アンチョビ</div>
+                  </div>
+                  <div class="menu-item-price">¥1,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ペパロニ</div>
+                    <div class="menu-item-desc">トマトソース、モッツァレラ、ペパロニ</div>
+                  </div>
+                  <div class="menu-item-price">¥1,890</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">クアトロフォルマッジ</div>
+                    <div class="menu-item-desc">4種のチーズを楽しめる濃厚な味わい</div>
+                  </div>
+                  <div class="menu-item-price">¥2,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ハワイアン</div>
+                    <div class="menu-item-desc">パイナップル、モッツァレラ、自家製ピザソース</div>
+                  </div>
+                  <div class="menu-item-price">¥1,980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">シーフード</div>
+                    <div class="menu-item-desc">シーフード、トマトソース、モッツァレラ</div>
+                  </div>
+                  <div class="menu-item-price">¥2,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ツナ＆オニオンピザ</div>
+                    <div class="menu-item-desc">ツナとオニオンのうま味が楽しめる一枚</div>
+                  </div>
+                  <div class="menu-item-price">¥2,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">しらすピザ</div>
+                    <div class="menu-item-desc">しらす、トマトソース、モッツァレラ、バジル</div>
+                  </div>
+                  <div class="menu-item-price">¥1,900</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">和牛ビーフピザ</div>
+                    <div class="menu-item-desc">和牛、きのこ、モッツァレラ、トマトソース</div>
+                  </div>
+                  <div class="menu-item-price">¥3,980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">インドカレーピザ</div>
+                    <div class="menu-item-desc">野菜またはチキンからお選びいただけます</div>
+                  </div>
+                  <div class="menu-item-price">¥2,300</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-salad.jpg" alt="パスタとサラダ" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>パスタ・サラダ</h4>
+                <span class="tag">定番メニュー</span>
+              </div>
+              <div class="menu-note">親しみやすいパスタと、さっぱり楽しめるサラダです。</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ペペロンチーノ</div>
+                    <div class="menu-item-desc">オリーブオイル、にんにく、唐辛子</div>
+                  </div>
+                  <div class="menu-item-price">¥1,200</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ボロネーゼ</div>
+                    <div class="menu-item-desc">コクのあるミートソースパスタ</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">アラビアータ</div>
+                    <div class="menu-item-desc">トマトソース、にんにく、唐辛子</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ジェノベーゼ</div>
+                    <div class="menu-item-desc">バジル、ブロッコリー、にんにく、オリーブオイル</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">カルボナーラ</div>
+                    <div class="menu-item-desc">ベーコン、クリーム、黒こしょう</div>
+                  </div>
+                  <div class="menu-item-price">¥1,800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">グリーンサラダ</div>
+                    <div class="menu-item-desc">葉物野菜、にんじん、きゅうりなど</div>
+                  </div>
+                  <div class="menu-item-price">¥800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">コブサラダ</div>
+                    <div class="menu-item-desc">野菜、アボカド、トマト、ブロッコリーなど</div>
+                  </div>
+                  <div class="menu-item-price">¥980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">カプレーゼサラダ</div>
+                    <div class="menu-item-desc">トマト、モッツァレラ、バジル、オリーブオイル</div>
+                  </div>
+                  <div class="menu-item-price">¥980</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-drinks.jpg" alt="ドリンク" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>ドリンク</h4>
+                <span class="tag">ビール・ワイン・カクテル</span>
+              </div>
+              <div class="menu-note">お食事と一緒に楽しめるお飲み物をご用意しています。</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">アサヒ瓶ビール</div>
+                    <div class="menu-item-desc">定番の日本の瓶ビール</div>
+                  </div>
+                  <div class="menu-item-price">¥480–500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ビッラ・モレッティ</div>
+                    <div class="menu-item-desc">イタリアの瓶ビール</div>
+                  </div>
+                  <div class="menu-item-price">¥700</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">グラスワイン</div>
+                    <div class="menu-item-desc">赤・白をご用意しています</div>
+                  </div>
+                  <div class="menu-item-price">¥700–800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ボトルワイン</div>
+                    <div class="menu-item-desc">赤・白のボトル各種</div>
+                  </div>
+                  <div class="menu-item-price">¥3,200〜</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ハイボール</div>
+                    <div class="menu-item-desc">ジムビームなど各種ご用意</div>
+                  </div>
+                  <div class="menu-item-price">¥500–1,000</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">カクテル</div>
+                    <div class="menu-item-desc">スプリッツァー、キティ、カリモーチョ、オペレーター など</div>
+                  </div>
+                  <div class="menu-item-price">¥600–700</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">ソフトドリンク</div>
+                    <div class="menu-item-desc">コーラ、ジンジャーエール、オレンジジュース、紅茶、コーヒー など</div>
+                  </div>
+                  <div class="menu-item-price">¥420–500</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-dessert.jpg" alt="デザート" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>デザート</h4>
+                <span class="tag">食後の楽しみ</span>
+              </div>
+              <div class="menu-note">お食事の締めくくりにぴったりのデザートです。</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">本日のケーキ</div>
+                    <div class="menu-item-desc">内容はスタッフまでおたずねください</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">チョコレートケーキ</div>
+                    <div class="menu-item-desc">濃厚なチョコレートの味わい</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">チーズケーキ</div>
+                    <div class="menu-item-desc">定番のチーズケーキ</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">コーヒーセット</div>
+                    <div class="menu-item-desc">デザートにコーヒーを追加できます</div>
+                  </div>
+                  <div class="menu-item-price">+¥400</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container featured-strip">
+        <div class="feature-panel">
+          <div class="card-body">
+            <h4>おすすめメニュー</h4>
+            <p>CABINらしい、手づくりのぬくもりが感じられる人気のメニューです。</p>
+            <div class="feature-list">
+              <div><strong>インドカレーピザ</strong><br><span>野菜またはチキンから選べる、印象に残る一枚です。</span></div>
+              <div><strong>シーフードピザ</strong><br><span>御宿の空気にもよく似合う、人気の海鮮ピザです。</span></div>
+              <div><strong>和牛ビーフピザ</strong><br><span>少し特別な気分で楽しみたい方におすすめです。</span></div>
+              <div><strong>デザート＆コーヒー</strong><br><span>お食事の最後をやさしく締めくくる組み合わせです。</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-panel aki-panel">
+          <div class="aki-top-image">
+            <img src="assets/images/aki-big.jpg" alt="CABINのアキちゃん" />
+            <div class="aki-badge">アキちゃん</div>
+          </div>
+
+          <div class="card-body aki-body">
+            <h4>アキちゃんコーナー</h4>
+            <p>
+              アキちゃんは、CABIN のやさしい雰囲気をさらにあたたかくしてくれる存在です。
+              おだやかで愛らしい姿も、このお店の心地よさのひとつです。
+            </p>
+            <p>
+              わんちゃん好きの方にとっても、CABINがより身近で特別に感じられる理由のひとつです。
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="visit">
+      <div class="container visit-grid">
+        <div class="card">
+          <div class="card-body">
+            <div class="section-head" style="margin-bottom: 10px;">
+              <div>
+                <h3>店舗情報</h3>
+                <p>御宿へお越しの際に便利な、アクセスと基本情報をご案内します。</p>
+              </div>
+            </div>
+
+            <div class="details-list">
+              <div class="details-row">
+                <strong>住所</strong>
+                <span>2228-1 Kubo, 夷隅郡御宿町 Isumi District, Chiba 299-5102</span>
+              </div>
+
+              <div class="details-row">
+                <strong>電話番号</strong>
+                <span>080-4204-1187</span>
+              </div>
+
+              <div class="details-row">
+                <strong>営業時間</strong>
+                <span>10:30 AM – 9:30 PM</span>
+              </div>
+
+              <div class="details-row">
+                <strong>定休日</strong>
+                <span>火曜日</span>
+              </div>
+
+              <div class="details-row">
+                <strong>駐車場</strong>
+                <span>あり</span>
+              </div>
+
+              <div class="details-row">
+                <strong>テイクアウト</strong>
+                <span>対応しています</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Instagram</strong>
+                <span>@cabin.onjuku</span>
+              </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top: 20px;">
+              <a class="btn" href="tel:08042041187">電話する</a>
+              <a class="btn-outline" href="https://instagram.com/cabin.onjuku" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <iframe
+            title="CABIN Pizza House map"
+            src="https://www.google.com/maps?q=35.1858654,140.3556814&z=18&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© CABIN Pizza House</div>
+      <div>日本語ページ • 御宿で楽しむ手づくりピザ・パスタ・ワイン</div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="画像を閉じる">×</button>
+    <img id="lightboxImage" src="" alt="" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

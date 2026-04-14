@@ -1,34 +1,637 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pizza Shop</title>
-  <style>
-    body { font-family: Arial; margin: 0; text-align: center; }
-    header { background: #c0392b; color: white; padding: 40px; }
-    section { padding: 20px; }
-    .menu-item { margin: 10px 0; }
-    a { color: #c0392b; text-decoration: none; font-weight: bold; }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CABIN Pizza House | Italian Cuisine & Wine Bar</title>
+  <meta
+    name="description"
+    content="CABIN Pizza House in Onjuku, Chiba. Handmade pizza, pasta, salads, dessert, wine, and a warm dog-friendly atmosphere."
+  />
+  <!-- <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/style2.css" /> -->
+  <link rel="stylesheet" href="assets/css/style3.css" />
 </head>
 <body>
 
-<header>
-  <h1>🍕 Pizza Shop</h1>
-  <a href="jp.html">日本語はこちら</a>
+  <header class="topbar">
+  <div class="container topbar-inner">
+
+    <a class="brand" href="#top" aria-label="CABIN Pizza House home">
+      <div class="brand-flag" aria-hidden="true">
+        <span class="flag-green"></span>
+        <span class="flag-white"></span>
+        <span class="flag-red"></span>
+      </div>
+
+      <div class="brand-lockup">
+        <div class="brand-wordmark" aria-label="CABIN">
+          <span class="c1">C</span>
+          <span class="c2">A</span>
+          <span class="c3">B</span>
+          <span class="c4">I</span>
+          <span class="c5">N</span>
+        </div>
+
+        <div class="brand-subline">
+          <span class="brand-pizza-house">pizza house</span>
+          <span class="brand-katakana">キャビン</span>
+        </div>
+      </div>
+    </a>
+
+    <div class="top-info top-info-grid">
+      <a class="info-pill info-link" href="#visit">📍 2228-1 Kubo, Onjuku</a>
+      <div class="info-pill">🕒 10:30 AM – 9:30 PM</div>
+      <div class="info-pill">📞 080-4204-1187</div>
+
+      <div class="info-pill info-subtle">Chiba 299-5102</div>
+      <div class="info-pill info-closed">❌ Closed Tuesdays</div>
+      <a class="info-pill info-link" href="#visit">View map ↓</a>
+    </div>
+
+    <div class="top-actions">
+      <a class="btn-outline" href="index.html">日本語</a>
+      <a class="btn btn-sea" href="#visit">Visit Us</a>
+    </div>
+
+  </div>
 </header>
 
-<section>
-  <h2>Menu</h2>
-  <div class="menu-item">Margherita - $12</div>
-  <div class="menu-item">Pepperoni - $14</div>
-  <div class="menu-item">Hawaiian - $13</div>
-</section>
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow">🍕 Handmade Pizza • Pasta • Wine • Dessert</div>
+          <h2>Warm Italian comfort in Onjuku.</h2>
+          <p>
+            CABIN Pizza House serves handmade pizza, pasta, salads, desserts,
+            and drinks in a cozy setting with local charm. It feels personal,
+            welcoming, and perfect for a relaxed lunch or dinner near the coast.
+          </p>
+          <p>
+            Fresh ingredients, house-made flavors, and a friendly atmosphere —
+            with a soft spot for dog lovers, too.
+          </p>
 
-<section>
-  <h2>Location</h2>
-  <p>123 Main Street</p>
-</section>
+          <div class="hero-highlights">
+            <span class="tag">Handmade Pizza Dough</span>
+            <span class="tag">Italian Wine & Drinks</span>
+            <span class="tag">Takeout Available</span>
+            <span class="tag">Dog-Friendly Vibe</span>
+          </div>
 
+          <div class="hero-actions">
+            <a class="btn" href="#menu">See Menu</a>
+            <a class="btn-outline" href="#visit">Location & Hours</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap">
+          <img src="assets/images/hero-placeholder.jpg" alt="Hero image of CABIN Pizza House" />
+          <div class="hero-card">
+            <strong>Local favorite with heart</strong>
+            <p>
+              Handmade pizzas, comforting pasta, and a welcoming atmosphere
+              that feels personal from the moment you walk in.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="About CABIN Pizza House">
+      <div class="container about-grid">
+        <div class="card">
+          <div class="card-body about-copy">
+            <div class="section-head" style="margin-bottom: 12px;">
+              <div>
+                <h3>A cozy neighborhood restaurant</h3>
+                <p>
+                  A warm Italian-style restaurant in Onjuku with handmade pizza,
+                  pasta, wine, and seasonal comfort-food favorites.
+                </p>
+              </div>
+            </div>
+
+            <p>
+              CABIN Pizza House blends a laid-back local atmosphere with a menu
+              that feels heartfelt and homemade. The restaurant’s style is
+              approachable, family-friendly, and full of personality.
+            </p>
+
+            <p>
+              The menu includes classic pizzas like Margherita and Pepperoni,
+              plus seafood, curry pizza, pasta, salads, desserts, and drinks.
+              It’s the kind of place where guests remember both the food and the atmosphere.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat">
+                <strong>Pizza, pasta, salads</strong>
+                <span>Classic Italian-inspired comfort food</span>
+              </div>
+              <div class="stat">
+                <strong>Wine & soft drinks</strong>
+                <span>Good for lunch, dinner, or a relaxed evening</span>
+              </div>
+              <div class="stat">
+                <strong>Takeout available</strong>
+                <span>Convenient for beach days and local visits</span>
+              </div>
+              <div class="stat">
+                <strong>Dog-friendly charm</strong>
+                <span>A welcoming place for animal lovers too</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/images/pizza-feature-placeholder.jpg" alt="Featured pizza" />
+            <div class="gallery-label">Signature Pizza</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/pasta-feature-placeholder.jpg" alt="Pasta dish" />
+            <div class="gallery-label">Pasta</div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/images/dessert-feature-placeholder.jpg" alt="Dessert plate" />
+            <div class="gallery-label">Dessert</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" aria-label="Photo gallery">
+        <div class="container">
+            <div class="section-head">
+            <div>
+                <h3>Gallery</h3>
+                <p>A look at the food, atmosphere, and personality of CABIN Pizza House.</p>
+            </div>
+            </div>
+
+            <div class="gallery-grid">
+            <a class="gallery-item lightbox-trigger" href="assets/images/pizza-feature-placeholder.jpg" data-caption="Signature Pizza">
+                <img src="assets/images/pizza-feature-placeholder.jpg" alt="Signature pizza" />
+                <div class="gallery-label">Signature Pizza</div>
+            </a>
+
+            <a class="gallery-item lightbox-trigger" href="assets/images/pasta-feature-placeholder.jpg" data-caption="Pasta">
+                <img src="assets/images/pasta-feature-placeholder.jpg" alt="Pasta dish" />
+                <div class="gallery-label">Pasta</div>
+            </a>
+
+            <a class="gallery-item lightbox-trigger" href="assets/images/dessert-feature-placeholder.jpg" data-caption="Dessert">
+                <img src="assets/images/dessert-feature-placeholder.jpg" alt="Dessert" />
+                <div class="gallery-label">Dessert</div>
+            </a>
+            <a class="gallery-item lightbox-trigger" href="assets/images/handmade.jpg" data-caption="All of our food is handmade with care">
+                <img src="assets/images/alisa-san.jpg" alt="Menu page" />
+                <div class="gallery-label">Handmade with care</div>
+            </a>
+
+            
+            <a class="gallery-item lightbox-trigger" href="assets/images/atmosphere.jpg" data-caption="Restaurant Atmosphere">
+                <img src="assets/images/atmosphere-small.jpg" alt="Restaurant atmosphere" />
+                <div class="gallery-label">A fun, relaxing Atmosphere</div>
+            </a>
+            
+            <a class="gallery-item lightbox-trigger" href="assets/images/aki-big.jpg" data-caption="Aki-chan">
+                <img src="assets/images/aki-placeholder.jpg" alt="Aki the dog" />
+                <div class="gallery-label">Aki-chan</div>
+            </a>
+            </div>
+        </div>
+        </section>
+
+    <section id="menu">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h3>Menu</h3>
+            <p>
+              A clean English menu for visitors and new guests. You can refine prices later,
+              but this gives you a polished structure to start with.
+            </p>
+          </div>
+        </div>
+
+        <div class="menu-grid">
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-pizza.jpg" alt="Pizza menu image" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>Pizza</h4>
+                <span class="tag">Most popular</span>
+              </div>
+              <div class="menu-note">Handmade pizza with classic and house-special flavors.</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Margherita</div>
+                    <div class="jp-sub">マルゲリータ</div>
+                    <div class="menu-item-desc">Tomato sauce, mozzarella, basil</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Anchovies Margherita</div>
+                    <div class="menu-item-desc">Tomato sauce, mozzarella, basil, anchovies</div>
+                  </div>
+                  <div class="menu-item-price">¥1,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Pepperoni</div>
+                    <div class="menu-item-desc">Tomato sauce, mozzarella, pepperoni</div>
+                  </div>
+                  <div class="menu-item-price">¥1,890</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Quattro Formaggi</div>
+                    <div class="menu-item-desc">Four cheeses, rich and savory</div>
+                  </div>
+                  <div class="menu-item-price">¥2,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Hawaiian</div>
+                    <div class="menu-item-desc">Pineapple, mozzarella, house pizza sauce</div>
+                  </div>
+                  <div class="menu-item-price">¥1,980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Seafood</div>
+                    <div class="menu-item-desc">Seafood, tomato sauce, mozzarella</div>
+                  </div>
+                  <div class="menu-item-price">¥2,500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Tuna & Onion Pizza</div>
+                    <div class="menu-item-desc">Savory tuna, onion, and cheese</div>
+                  </div>
+                  <div class="menu-item-price">¥2,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Whitebait Pizza</div>
+                    <div class="menu-item-desc">Whitebait, tomato sauce, mozzarella, basil</div>
+                  </div>
+                  <div class="menu-item-price">¥1,900</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Wagyu Beef Pizza</div>
+                    <div class="menu-item-desc">Wagyu beef, mushrooms, mozzarella, tomato sauce</div>
+                  </div>
+                  <div class="menu-item-price">¥3,980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Indian Curry Pizza</div>
+                    <div class="menu-item-desc">Available in vegetable or chicken style</div>
+                  </div>
+                  <div class="menu-item-price">¥2,300</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-salad.jpg" alt="Pasta and salad menu image" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>Pasta & Salads</h4>
+                <span class="tag">Fresh favorites</span>
+              </div>
+              <div class="menu-note">Comforting pasta dishes and light salads.</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Peperoncino</div>
+                    <div class="menu-item-desc">Olive oil, garlic, chili pepper</div>
+                  </div>
+                  <div class="menu-item-price">¥1,200</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Bolognese</div>
+                    <div class="menu-item-desc">Rich meat sauce pasta</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Arrabbiata</div>
+                    <div class="menu-item-desc">Tomato sauce with garlic and chili</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Genovese</div>
+                    <div class="menu-item-desc">Basil, broccoli, garlic, olive oil</div>
+                  </div>
+                  <div class="menu-item-price">¥1,300</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Carbonara</div>
+                    <div class="menu-item-desc">Bacon, cream, black pepper</div>
+                  </div>
+                  <div class="menu-item-price">¥1,800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Green Salad</div>
+                    <div class="menu-item-desc">Leaf salad, carrots, cucumber, seasonal vegetables</div>
+                  </div>
+                  <div class="menu-item-price">¥800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Cobb Salad</div>
+                    <div class="menu-item-desc">Vegetables, avocado, tomato, broccoli and more</div>
+                  </div>
+                  <div class="menu-item-price">¥980</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Caprese Salad</div>
+                    <div class="menu-item-desc">Tomato, mozzarella, basil, olive oil</div>
+                  </div>
+                  <div class="menu-item-price">¥980</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-drinks.jpg" alt="Drink menu image" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>Drinks</h4>
+                <span class="tag">Beer • Wine • Cocktails</span>
+              </div>
+              <div class="menu-note">Casual drinks, wine, whiskey, and non-alcoholic options.</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Asahi Bottled Beer</div>
+                    <div class="menu-item-desc">Classic Japanese bottled beer</div>
+                  </div>
+                  <div class="menu-item-price">¥480–500</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Birra Moretti</div>
+                    <div class="menu-item-desc">Italian bottled beer</div>
+                  </div>
+                  <div class="menu-item-price">¥700</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">House Wine by the Glass</div>
+                    <div class="menu-item-desc">Red or white</div>
+                  </div>
+                  <div class="menu-item-price">¥700–800</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Bottle of Wine</div>
+                    <div class="menu-item-desc">Red or white bottle selections</div>
+                  </div>
+                  <div class="menu-item-price">From ¥3,200</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Highball</div>
+                    <div class="menu-item-desc">Jim Beam or other whiskey options</div>
+                  </div>
+                  <div class="menu-item-price">¥500–1,000</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Cocktails</div>
+                    <div class="menu-item-desc">Spritzer, Kitty, Calimocho, Operator, Malibu Coke</div>
+                  </div>
+                  <div class="menu-item-price">¥600–700</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Soft Drinks</div>
+                    <div class="menu-item-desc">Cola, ginger ale, orange juice, apple juice, tea, coffee</div>
+                  </div>
+                  <div class="menu-item-price">¥420–500</div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="menu-section">
+            <div class="menu-image">
+              <img src="assets/images/menu-dessert.jpg" alt="Dessert image" />
+            </div>
+            <div class="menu-content">
+              <div class="menu-title">
+                <h4>Dessert</h4>
+                <span class="tag">Sweet finish</span>
+              </div>
+              <div class="menu-note">Simple and welcoming desserts to end the meal.</div>
+
+              <div class="menu-list">
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Today’s Cake</div>
+                    <div class="menu-item-desc">Ask about the daily cake selection</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Chocolate Cake</div>
+                    <div class="menu-item-desc">Rich chocolate dessert</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Cheesecake</div>
+                    <div class="menu-item-desc">Classic cheesecake</div>
+                  </div>
+                  <div class="menu-item-price">¥600</div>
+                </div>
+
+                <div class="menu-item">
+                  <div>
+                    <div class="menu-item-name">Coffee Set Add-on</div>
+                    <div class="menu-item-desc">Add coffee with dessert</div>
+                  </div>
+                  <div class="menu-item-price">+¥400</div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container featured-strip">
+        <div class="feature-panel">
+          <div class="card-body">
+            <h4>House specialties</h4>
+            <p>A few standout dishes that reflect CABIN’s warm, homemade style.</p>
+            <div class="feature-list">
+              <div><strong>Indian Curry Pizza</strong><br><span>A memorable house-style pizza with vegetable or chicken options.</span></div>
+            <div><strong>Seafood Pizza</strong><br><span>A coastal favorite that fits the Onjuku setting.</span></div>
+            <div><strong>Wagyu Beef Pizza</strong><br><span>A premium choice for guests looking for something special.</span></div>
+            <div><strong>Dessert & Coffee</strong><br><span>A gentle finish that rounds out the meal.</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-panel aki-panel">
+  <div class="aki-top-image">
+    <img src="assets/images/aki-big.jpg" alt="Aki at CABIN Pizza House" />
+    <div class="aki-badge">Aki-chan</div>
+  </div>
+
+  <div class="card-body aki-body">
+    <h4>Aki’s corner</h4>
+    <p>
+  Aki-chan adds a little extra warmth to the CABIN atmosphere.
+  Sweet, calm, and always charming, she helps make the restaurant feel even more welcoming.
+</p>
+<p>
+  For guests who love dogs, she is one more reason CABIN feels personal and memorable.
+</p>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <section id="visit">
+      <div class="container visit-grid">
+        <div class="card">
+          <div class="card-body">
+            <div class="section-head" style="margin-bottom: 10px;">
+              <div>
+                <h3>Visit CABIN Pizza House</h3>
+                <p>Easy-to-find basics for guests arriving by car or exploring Onjuku.</p>
+              </div>
+            </div>
+
+            <div class="details-list">
+              <div class="details-row">
+                <strong>Location</strong>
+                <span>2228-1 Kubo, 夷隅郡御宿町 Isumi District, Chiba 299-5102</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Phone</strong>
+                <span>080-4204-1187</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Hours</strong>
+                <span>10:30 AM – 9:30 PM</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Closed</strong>
+                <span>Tuesdays</span>
+                </div>
+
+              <div class="details-row">
+                <strong>Parking</strong>
+                <span>Parking available</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Takeout</strong>
+                <span>Available</span>
+              </div>
+
+              <div class="details-row">
+                <strong>Instagram</strong>
+                <span>@cabin.onjuku</span>
+              </div>
+            </div>
+
+            <div style="display:flex; flex-wrap:wrap; gap:12px; margin-top: 20px;">
+              <a class="btn" href="tel:08042041187">Call Now</a>
+              <a class="btn-outline" href="https://instagram.com/cabin.onjuku" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-box">
+        <iframe
+            title="CABIN Pizza House map"
+            src="https://www.google.com/maps?q=35.1858654,140.3556814&z=18&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen>
+        </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© CABIN Pizza House</div>
+      <div>English page • Handmade pizza, pasta, wine, and local charm in Onjuku</div>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <img id="lightboxImage" src="" alt="" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
